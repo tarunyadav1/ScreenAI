@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
-import { Manrope, DM_Sans } from 'next/font/google'
+// import localFont from 'next/font/local'
+import { DM_Sans } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 
 import './globals.css'
