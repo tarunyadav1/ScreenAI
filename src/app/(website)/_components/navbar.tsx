@@ -36,7 +36,7 @@ const features = [
 
 export function Navbar() {
 	return (
-		<header className="fixed top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-20">
+		<header className="fixed top-0 z-50 w-full  border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-20">
 			<div className="container">
 				<nav className="flex h-16 items-center justify-between">
 					<div className="flex items-center gap-8">
@@ -44,11 +44,13 @@ export function Navbar() {
 							<Monitor className="h-6 w-6" />
 							<span className="text-xl font-bold">ScreenAI</span>
 						</Link>
+					</div>
 
+					<div>
 						<NavigationMenu>
 							<NavigationMenuList>
 								<NavigationMenuItem>
-									<NavigationMenuTrigger>Features</NavigationMenuTrigger>
+									{/* <NavigationMenuTrigger>Features</NavigationMenuTrigger> */}
 									<NavigationMenuContent>
 										<ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
 											{features.map((feature) => (
@@ -95,22 +97,9 @@ export function Navbar() {
 					</div>
 
 					<div className="flex items-center gap-4">
-						<DropdownMenu>
-							<DropdownMenuTrigger asChild>
-								<Button variant="ghost" size="sm">
-									Resources
-								</Button>
-							</DropdownMenuTrigger>
-							<DropdownMenuContent align="end" className="w-48">
-								<DropdownMenuItem>Documentation</DropdownMenuItem>
-								<DropdownMenuItem>API Reference</DropdownMenuItem>
-								<DropdownMenuItem>Support</DropdownMenuItem>
-							</DropdownMenuContent>
-						</DropdownMenu>
-						<Button variant="ghost" size="sm">
-							Sign In
-						</Button>
-						<Button size="sm">Get Started</Button>
+						<Link href={'/dashboard'}>
+							<Button size="default">Sign In</Button>
+						</Link>
 					</div>
 				</nav>
 			</div>
