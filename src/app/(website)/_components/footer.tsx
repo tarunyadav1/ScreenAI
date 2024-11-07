@@ -9,7 +9,7 @@ export function Footer() {
 					<div>
 						<div className="flex items-center gap-2">
 							<Monitor className="h-6 w-6" />
-							<span className="text-lg font-bold">Opal</span>
+							<span className="text-lg font-bold">ScreenAI</span>
 						</div>
 						<p className="mt-4 text-sm text-muted-foreground">
 							AI-powered screen recording for the modern workplace.
@@ -120,7 +120,7 @@ export function Footer() {
 				</div>
 
 				<div className="mt-12 border-t border-border/40 pt-8 text-center text-sm text-muted-foreground">
-					© {new Date().getFullYear()} Opal. All rights reserved.
+					© {new Date().getFullYear()} ScreenAI. All rights reserved.
 				</div>
 			</div>
 		</footer>

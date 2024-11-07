@@ -35,7 +35,7 @@ export function Hero() {
 						</HoverCardTrigger>
 						<HoverCardContent className="w-80">
 							<div className="space-y-2">
-								<h4 className="text-sm font-semibold">Why Choose Opal?</h4>
+								<h4 className="text-sm font-semibold">Why Choose ScreenAI?</h4>
 								<p className="text-sm text-muted-foreground">
 									Our AI-powered platform automatically analyzes your screen
 									recordings, providing instant transcriptions, key moments, and

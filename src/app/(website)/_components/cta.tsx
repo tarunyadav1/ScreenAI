@@ -14,7 +14,7 @@ export function CTA() {
 					</h2>
 					<p className="mt-4 text-muted-foreground">
 						Join thousands of professionals who are already saving time and
-						boosting productivity with Opal.
+						boosting productivity with ScreenAI.
 					</p>
 					<div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
 						<Button size="lg" className="gap-2">

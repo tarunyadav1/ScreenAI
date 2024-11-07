@@ -8,7 +8,7 @@ import './globals.css'
 const manrope = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-	title: 'Opal',
+	title: 'ScreenAI',
 	description: 'Share videos with your friends',
 }
 

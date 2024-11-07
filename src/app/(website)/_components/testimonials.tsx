@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 const testimonials = [
 	{
 		quote:
-			'Opal has revolutionized how we create tutorial videos. The AI analysis saves hours of editing time.',
+			'ScreenAI has revolutionized how we create tutorial videos. The AI analysis saves hours of editing time.',
 		author: 'Sarah Chen',
 		role: 'Product Manager at TechCorp',
 		avatar:
@@ -20,7 +20,7 @@ const testimonials = [
 	},
 	{
 		quote:
-			"We've cut our training video production time in half thanks to Opal's intelligent features.",
+			"We've cut our training video production time in half thanks to ScreenAI's intelligent features.",
 		author: 'Emily Parker',
 		role: 'Head of Learning at EduTech',
 		avatar:
@@ -35,7 +35,7 @@ export function Testimonials() {
 				<div className="text-center">
 					<h2 className="text-3xl font-bold">Loved by Teams Worldwide</h2>
 					<p className="mt-4 text-muted-foreground">
-						See what our customers have to say about Opal
+						See what our customers have to say about ScreenAI
 					</p>
 				</div>
 

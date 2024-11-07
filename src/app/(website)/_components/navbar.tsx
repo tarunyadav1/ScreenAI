@@ -42,7 +42,7 @@ export function Navbar() {
 					<div className="flex items-center gap-8">
 						<Link href="/" className="flex items-center gap-2">
 							<Monitor className="h-6 w-6" />
-							<span className="text-xl font-bold">Opal</span>
+							<span className="text-xl font-bold">ScreenAI</span>
 						</Link>
 
 						<NavigationMenu>
