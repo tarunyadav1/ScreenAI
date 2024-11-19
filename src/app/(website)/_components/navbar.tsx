@@ -10,14 +10,9 @@ import {
 	NavigationMenuList,
 	NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu'
-import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 
 const features = [
 	{
@@ -97,7 +92,7 @@ export function Navbar() {
 					</div>
 
 					<div className="flex items-center gap-4">
-						<Link href={'/dashboard'}>
+						<Link href={'/auth/sign-in'}>
 							<Button size="default">Sign In</Button>
 						</Link>
 					</div>
